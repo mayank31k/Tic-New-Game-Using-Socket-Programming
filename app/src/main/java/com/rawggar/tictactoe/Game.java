@@ -59,7 +59,7 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
         played = new Boolean[]{false,false,false,false,false,false,false,false,false,false};
         array=new int[]{0,0,0,0,0,0,0,0,0};
 
-        //Toast.makeText(getApplicationContext(),"Inside oncreate "+id,Toast.LENGTH_SHORT).show();
+        //Toast.makeText (getApplicationContext(),"Inside oncreate "+id,Toast.LENGTH_SHORT).show();
 
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
